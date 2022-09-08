@@ -1,10 +1,10 @@
 #include<stdio.h>
-/**This is the main function
- * the code starts running from here
+/**
+ * Description: main - Prints out a string to stdout.
+ * Return: 0 if successful.
  */
 int main(void)
 {
-	/*String initialization*/
-printf("with proper grammar, but the output is a piece of art");
+printf("with proper grammar, but the outcome is a piece of art, \n");
 return (0);
 }
