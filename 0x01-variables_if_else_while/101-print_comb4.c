@@ -14,7 +14,7 @@ for (A = 0; A < 8; A++)
 		{putchar((A % 10) + '0');
 putchar((B % 10) + '0');
 putchar((C % 10) + '0');
-if (A == 7 && B == 8 && C = 9)
+if (A == 7 && B == 8 && C == 9)
 	continue;
 putchar(',');
 putchar(' ');
