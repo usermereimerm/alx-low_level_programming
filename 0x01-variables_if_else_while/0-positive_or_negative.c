@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<time.h>
 /**
  *  Description: main - prints a random number to a variable n and
  *  print whether n is positive or negative

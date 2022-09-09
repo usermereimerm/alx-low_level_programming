@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<time.h>
 /**
  *  Description: main - assign a random number to a variable n
  *  and prints out the last digit of n.
