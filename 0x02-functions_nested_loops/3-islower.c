@@ -1,7 +1,4 @@
-#include<stdio.h>
-#include<stdlib.h>
-
-int _islower(int c);
+#include "main.h"
 
 /**
  * Description: main - calls a function tht checks for lowercase alphabet.
@@ -39,5 +36,5 @@ int _islower(int c)
 		break;
 			test = 0;
 	}
-	printf("%d", test);
+	_putchar(test + '0');
 }

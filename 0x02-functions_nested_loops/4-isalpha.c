@@ -42,5 +42,5 @@ int _isalpha(int c)
 			test = 0;
 		}
 	}
-	printf("%d", test);
+	_putchar(test + '0');
 }
