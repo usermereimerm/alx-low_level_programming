@@ -1,4 +1,3 @@
-#include<stdio.h>
 #include<main.h>
 /**
  * Description: main - prints putchar followed by a new line.
