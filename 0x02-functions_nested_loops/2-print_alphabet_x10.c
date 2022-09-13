@@ -1,16 +1,6 @@
 #include "main.h"
 
 /**
- * Description: main - print the lowercase alphabet 10 x.
- * Return: 0 if successful.
- */
-int main(void)
-{
-	print_alphabet_x10();
-	return (0);
-}
-
-/**
  * print_alphabet_x10 - print lowers case alphabets 10x
  * Return: void if successful.
  */
