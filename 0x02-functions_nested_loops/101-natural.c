@@ -8,9 +8,10 @@
  */
 int main(void)
 {
-	int i, num, count;
+	int num, count;
 
-	count = num = count = 0;
+	count = 0;
+	num = 0;
 	while (num < 1024)
 	{
 		if ((num % 5 == 0) || (num % 3 == 0))

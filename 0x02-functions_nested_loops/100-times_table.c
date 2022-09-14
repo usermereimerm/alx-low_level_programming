@@ -8,7 +8,7 @@
  */
 void print_times_table(int n)
 {
-	int n, i, mul, a;
+	int i, mul, a;
 
 	if (n > 0 && n <= 15)
 	{
@@ -24,5 +24,4 @@ void print_times_table(int n)
 			_putchar('\n');
 		}
 	}
-	return (mul);
 }
