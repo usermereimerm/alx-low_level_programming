@@ -3,7 +3,6 @@
 /**
  * _isupper - test a given character for uppercase
  * @c: the character to be tested
- * 
  * Return: 1 if successful otherwise 0.
  */
 int _isupper(int c)
