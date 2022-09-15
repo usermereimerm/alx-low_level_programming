@@ -1,4 +1,5 @@
 #include "main.h"
+#include<stdio.h>
 
 /**
  * print_to_98 - prints the set of natural numbers from a given number
@@ -8,8 +9,6 @@
  */
 void print_to_98(int n)
 {
-	int n;
-
 	if (n >= 98)
 	{
 		while (n > 98)
