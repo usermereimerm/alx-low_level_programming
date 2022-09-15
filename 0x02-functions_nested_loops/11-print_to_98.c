@@ -3,18 +3,23 @@
 /**
  * print_to_98 - prints the set of natural numbers from a given number
  * to 98.
+ * @n: the number to begin counting at.
  * Return: 0 if successful.
  */
 void print_to_98(int n)
 {
 	int n;
 
-	for (n = n; n <= 98; n++)
+	if (n >= 98)
 	{
-		_putchar(n);
-		_putchar(',');
-		_putchar(' ');
+		while (n > 98)
+			printf("%d\n", n--);
+		printf("%d\n", n);
 	}
-	_putchar('\n');
-	return (n);
+	else
+	{
+		while (n < 98)
+			printf("%d", n++);
+		printf("%d\n", n);
+	}
 }
