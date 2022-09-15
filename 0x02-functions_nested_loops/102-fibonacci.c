@@ -7,14 +7,15 @@
  */
 int main(void)
 {
-	int cur, prev, next, i;
+	int i;
+	unsigned long cur, prev, next;
 
 	cur = 1;
 	prev = i = 0;
 	for (i = 0; i < 50; i++)
 	{
 		next = (cur + prev);
-		printf("%d, ", next);
+		printf("%lu, ", next);
 		prev = cur;
 		cur = next;
 	}
