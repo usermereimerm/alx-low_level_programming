@@ -6,11 +6,11 @@
  * @src: source to copy string from
  * Return: dest
  */
-char _strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int index, len;
 
-	while (src[index++)
+	while (src[index++])
 		len++;
 	for (index = 0; index < len; index++)
 		dest[index] = src[index];

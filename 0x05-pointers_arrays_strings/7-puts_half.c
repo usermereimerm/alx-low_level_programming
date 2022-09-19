@@ -10,7 +10,7 @@ void puts_haf(char *str)
 {
 	int len = 0, index, n;
 
-	while (str[inde++])
+	while (str[index++])
 		len++;
 	n = ((len - 1) / 2);
 	if ((len % 2) == 0)
