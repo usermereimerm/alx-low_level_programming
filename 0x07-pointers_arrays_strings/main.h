@@ -1,7 +1,8 @@
 #ifndef MAIN_H
-#ifdef MAIN_H
+#define MAIN_H
 
 /**
+ * main - header file for prototypes
  * int prototype(char)
  * void *prototype(void *, int, size_t)
  * char *prototype(char, char)
