@@ -1,1 +1,1 @@
-A README.md file for the project Recursion
+Readme.md file for recursion tasks
