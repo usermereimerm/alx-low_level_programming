@@ -29,7 +29,7 @@ int strlen_no_wilds(char *str)
  * iterate_wild - iterates through a string
  * @wildstr: the string to be iterated.
  */
-void iterate_wild(chr **wildstr)
+void iterate_wild(char **wildstr)
 {
 	if (**wildstr == '*')
 	{
@@ -55,9 +55,9 @@ char *postfix_match(char *str, char *postfix)
 	if (*(str + str_len - postfix_len) == *postfix && *postfix != '\0')
 	{
 		postfix++;
-		return (postfix_match(str, postfix);
+		return (postfix_match(str, postfix));
 	}
-		return (postfix);
+	return (postfix);
 }
 
 /**
