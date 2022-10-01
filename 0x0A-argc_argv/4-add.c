@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 
 	for (n1 = 1; n1 < argc; n1++)
 	{
-		for (digit = 0; argv[n1][n2]; n2++)
+		for (n2 = 0; argv[n1][n2]; n2++)
 		{
 			if (argv[n1][n2] < '0' || argv[n1][n2] > '9')
 			{
