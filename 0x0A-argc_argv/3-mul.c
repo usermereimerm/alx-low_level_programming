@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 
 /**
  * main - prints multiplication of 2 no.s
