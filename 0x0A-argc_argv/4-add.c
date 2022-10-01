@@ -4,7 +4,7 @@
 /**
  * main - prints the sum of two numbers
  * @argc: number of arguments passed
- * argv: array of pointers to argument
+ * @argv: array of pointers to argument
  * Return: 0
  */
 int main(int argc, char *argv[])
