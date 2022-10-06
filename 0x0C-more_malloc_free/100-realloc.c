@@ -9,9 +9,10 @@
  */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
+	int a, b;
+
 	if (ptr != NULL)
-		free(ptr);
+		printf("%d and %d\n", a, b);
 	if (old_size == new_size)
-		return (ptr);
-	printf("ptr is freed");
+		printf("ptr is freed");
 }
