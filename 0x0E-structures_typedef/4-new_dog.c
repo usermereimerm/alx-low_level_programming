@@ -19,7 +19,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		len1++;
 	for (index = 0; owner[index]; index++)
 		len2++;
-	oga = malloc(sizeof(float) + (sizeof(char) * (len1 + len2 + 2)));
+	oga = malloc(sizeof(dog_t));
 	if (oga == NULL)
 		return (NULL);
 	oga->name = malloc(sizeof(char) * (len1 + 1));
