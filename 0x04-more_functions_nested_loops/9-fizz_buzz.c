@@ -11,7 +11,7 @@ int main(void)
 
 	while (num++ < 100)
 	{
-		if ((num % 3 === 0) && (num % 5 == 0))
+		if ((num % 3 == 0) && (num % 5 == 0))
 		{
 			printf("FizzBuzz ");
 		}
@@ -23,11 +23,10 @@ int main(void)
 		{
 			printf("Buzz ");
 		}
+		else if(num == 100)
+			printf("100\n");
 		else
 			printf("%d ", num);
-		if (num == 100)
-			continue;
-		printf(" ");
 	}
 	return (0);
 }
